@@ -1,0 +1,190 @@
+/*zastosowanie do wszystkich elementów strony*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-right: 50px;
+
+}
+
+nav ul li a {
+    color: chartreuse;
+    text-decoration: none;
+
+}
+
+header {
+    color: white;
+    background-image: url(../img/header-background.jpg);
+    background: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header div {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 300%;
+}
+
+/*transform: translateY(-50%)
+to przesuniecie na srodek*/
+
+header div h1 {
+    font-size: 200%;
+}
+
+header div h1 span {
+    color: chartreuse;
+}
+
+
+#omnie {
+    padding: 80px;
+    text-align: center;
+}
+
+#omnie h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#omnie h2 span {
+    color: chartreuse;
+}
+
+#omnie figure {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+#omnie article p {
+
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+}
+
+#omnie figure img {
+    width: 50%;
+    border-radius: 5px;
+    border: 10px solid white;
+}
+
+#clear {
+    clear: both;
+}
+
+#Umiejetnosci {
+    padding: 30px;
+    text-align: center;
+}
+
+#Umiejetnosci h2 {
+    text-align: center;
+}
+
+#Umiejetnosci h2 span {
+    color: chartreuse;
+}
+
+#Umiejetnosci p {
+    padding: 30px;
+    text-align: center;
+}
+
+#Umiejetnosci figure {
+    display: inline-block;
+    margin: 30px;
+
+}
+
+#Mojeportfolio {
+    padding: 10px;
+}
+
+#Mojeportfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Mojeportfolio h2 span {
+    color: chartreuse;
+}
+
+#Mojeportfolio .box {
+    height: 400px;
+    width: 33.333%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+#img2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+#img3 {
+    background-image:url(../img/portfolio3.jpg);
+} 
+
+.box2 {
+    padding: 10px;
+    height: 100%;
+    background-color:  rgba(42,61,79,0.8);
+    opacity: 0;
+}
+.box2:hover{
+    opacity: 1;
+    position: relative;
+}
+.box3 {
+    border: 1px solid #FFF;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 100;
+    line-height: 1.5;
+    height: 100%;
+    color: #fff;
+    position: relative;
+}
+
+.box4 {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
