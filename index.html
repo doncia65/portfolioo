@@ -6,16 +6,19 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/resp.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="O mnie">O mnie</a></li>
+            <li><a href="#omnie">O mnie</a></li>
             <li><a href="Umiejętności">Umiejętności</a></li>
             <li><a href="Portfolio">Portfolio</a></li>
             <li><a href="Kontakt">Kontakt</a></li>
@@ -36,12 +39,13 @@
 
 
         <figure>
-            <img src="../portfolio/img/jan-nowak.jpg" alt="to jest jakiś Pan"> </figure>
+            <img src="../portfolio/img/jan-nowak.jpg" alt="to jest jakiś Pan">
+        </figure>
 
         <article>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi, libero recusandae eaque non itaque voluptate, est praesentium labore, necessitatibus fugiat asperiores! Adipisci ratione tempora, eum veniam rerum, fuga voluptas hic at ut quam officiis fugit! Beatae aut quos labore quas, eaque necessitatibus voluptatem quibusdam libero dicta iusto deserunt soluta voluptatum, nulla at ducimus. Saepe fuga, quia necessitatibus quidem corrupti expedita incidunt quae corporis in inventore molestiae nihil ratione neque deleniti porro ipsa magni reiciendis ut quas.Iure, perspiciatis, aspernatur. Eos provident placeat amet repudiandae, ratione, perferendis harum tempora possimus.</p>
         </article>
-        <div id="clear"></div>
+        <div class="clear"></div>
 
 
     </section>
@@ -76,35 +80,83 @@
         <h2>Moje <span>portfolio</span></h2>
         <div class="box" id="img1">
             <div class="box2">
-               <div class="box3">
-                   <div class="box4">
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                   </div>
-               </div>  
+                <div class="box3">
+                    <div class="box4">
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
             </div>
         </div>
-   <div class="box" id="img2">
+        <div class="box" id="img2">
             <div class="box2">
-               <div class="box3">
-                   <div class="box4">
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                   </div>
-               </div>
+                <div class="box3">
+                    <div class="box4">
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
             </div>
         </div>
-    <div class="box" id=img3>
+        <div class="box" id=img3>
             <div class="box2">
-               <div class="box3">
-                   <div class="box4">
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                       <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
-                   </div>
-               </div>
+                <div class="box3">
+                    <div class="box4">
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <p>(Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse, id cumque aperiam quia obcaecati?)</p>
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="clear"></div>
     </section>
 
+
+    <section id="contact">
+
+        <h2>Donata <span>Boruń</span></h2>
+        <div id="contact-content" class="fifty"><br />
+            <!--                dane adresowe opakowac w address-->
+            <address>
+            ul. Kwiatowa 3<br /> <br /> 
+            tel: 790 382 935<br/> 
+            02-972 Warszawa<br />
+            <a href="mailto:donata_blach@wp.pl"><span>donata_blach@wp.pl</span></a>
+            </address>
+            <!--tutaj zamnkac address-->
+            <div id="social-media-icons" class="fifty">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div id="form" class="fifty">
+        <form action="https://formspree.io/donata_blach@wp.pl" method="post">
+
+<!--                <label for="name"></label>-->
+                <input type="text" id="name" name="Name" placeholder="Imię i Nazwisko">
+
+<!--                <label for="mail"></label>-->
+                <input type="email" id="mail" name="E-mail" placeholder="Adres e-mail">
+
+
+                <textarea id="msg" name="Message" placeholder="Wiadomość"></textarea>
+
+                <button type="submit">Wyślij</button>
+
+            </form>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+
+
+    <footer>Copyright &#9400; Donata Boruń</footer>
 </body>
+
 </html>

@@ -1,0 +1,15 @@
+@media all and (max-width: 992px) {
+body
+{
+    width: 100%;
+}
+}
+@media all and (max-width: 992px) {
+section figure {
+    height: 100%;
+}
+    
+@media all and (max-width: 992px) {
+section figure img {
+    height: 100%;
+    }

@@ -7,8 +7,12 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+/*    font-family: 'Lato', sans-serif;*/
     font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+    clear:both;
 }
 
 nav {
@@ -66,14 +70,13 @@ header div h1 span {
     color: chartreuse;
 }
 
-
 #omnie {
     padding: 80px;
     text-align: center;
 }
 
 #omnie h2 {
-    text-align: center;
+/*    text-align: center;*/
     margin-bottom: 30px;
 }
 
@@ -85,7 +88,7 @@ header div h1 span {
     float: left;
     display: inline-block;
     width: 50%;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 #omnie article p {
@@ -102,18 +105,16 @@ header div h1 span {
     border: 10px solid white;
 }
 
-#clear {
-    clear: both;
-}
-
 #Umiejetnosci {
     padding: 30px;
     text-align: center;
 }
 
+/*
 #Umiejetnosci h2 {
     text-align: center;
 }
+*/
 
 #Umiejetnosci h2 span {
     color: chartreuse;
@@ -121,17 +122,16 @@ header div h1 span {
 
 #Umiejetnosci p {
     padding: 30px;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 #Umiejetnosci figure {
     display: inline-block;
     margin: 30px;
-
 }
 
 #Mojeportfolio {
-    padding: 10px;
+    font-weight: lighter;
 }
 
 #Mojeportfolio h2 {
@@ -169,7 +169,7 @@ header div h1 span {
 }
 .box2:hover{
     opacity: 1;
-    position: relative;
+/*    position: relative;*/
 }
 .box3 {
     border: 1px solid #FFF;
@@ -185,6 +185,111 @@ header div h1 span {
 .box4 {
     position:absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%);   
+}
+
+#contact { 
+    background-color: #213b50;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    width: 100%;
+/*    float: left;*/
+}
+
+
+
+#contact #contact-header h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+#contact #contact-header {
+    font-weight: 50;
+    width: 50%;
+}
+
+#contact h2 span {
+    color: chartreuse;
+}
+
+#form {
+    padding: 10px 20px;
+    background-color:  #213b50 ;
+    color: white;
+}
+
+label {
+    display: block;   
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    background-color:#4e708c ;
+    border: 0;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px; 
+    height: 25px;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color:  #4e708c ;
+    border: 1px solid white; 
+}
+
+form textarea {
+    display: block;
+    height: 150px;
+    resize: none; 
+    text-decoration: none;
+}
+
+[type="submit"] {
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    background-color: lime;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+}
+
+.fifty {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+#contact #social-media-icons {
+    color: white;
+    font-size: 200%;
+    border: 1px, white;
+    padding: 50px;
+}
+
+
+#contact #social-media-icons a {
     
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border: 2px solid
+}
+
+footer {
+    background-color: #170f48;
+    color: white; 
+}
+
+#contact #contact-content address a span {
+    color: lime;
+    text-decoration: none;
 }
